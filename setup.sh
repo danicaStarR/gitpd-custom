@@ -1,1 +1,1 @@
-echo hi
+echo hi > $HOME/a.txt
