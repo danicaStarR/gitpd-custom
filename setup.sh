@@ -1,6 +1,6 @@
 # Cannot output to console!!
-echo "echo Yes" >> $HOME/.bashrc
+#echo "..." >> $HOME/.bashrc
 
-echo hi
+#source $HOME/.bashrc
 
 sudo apt update --allow-insecure-repositories
