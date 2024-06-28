@@ -1,6 +1,17 @@
-# Cannot output to console!!
+# ==== Outputs ====
 #echo "..." >> $HOME/.bashrc
 
 #source $HOME/.bashrc
-echo hedd233 >> /etc/motd
+
+
+# ==== Modify Motd ====
+
+cat >> /tmp/motmd.sh <<EOF
+echo hed233 >> /etc/motd
+EOF
+sudo chmod 777 /tmp/motmd.sh
+sudo /tmp/motmd.sh
+
+
+
 sudo apt update --allow-insecure-repositories
