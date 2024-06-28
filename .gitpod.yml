@@ -1,6 +1,2 @@
-image:
-  file: Dockerfile
-gitConfig:
-  user.email: 103302052+danicaStarR@users.noreply.github.com
-tasks:
-    - command: echo hello
+ge:
+  file: .gitpod.Dockerfile
