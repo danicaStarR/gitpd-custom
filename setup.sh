@@ -1,2 +1,2 @@
 # Cannot output to console!!
-echo hi > $HOME/a.txt
+echo "echo Yes" >> $HOME/.bashrc

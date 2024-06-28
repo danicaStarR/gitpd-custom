@@ -1,7 +1,6 @@
 image:
   file: Dockerfile
-ports:
-  - port: 5900
-    onOpen: ignore
-  - port: 6080
-    onOpen: open-browser
+gitConfig:
+  user.email: 103302052+danicaStarR@users.noreply.github.com
+tasks:
+    - command: echo hello
